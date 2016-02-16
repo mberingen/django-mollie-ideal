@@ -18,3 +18,4 @@ class MollieIdealPaymentForm(forms.ModelForm):
 
     class Meta:
         model = MollieIdealPayment
+        fields = ('amount', 'bank_id',)
