@@ -72,7 +72,7 @@ class MollieIdealPayment(models.Model):
             return True
         return False
 
-    check = is_paid
+    # check = is_paid
 
     @property
     def bank_name(self):
